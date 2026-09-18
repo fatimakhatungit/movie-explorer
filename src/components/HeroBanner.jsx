@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/20" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] w-full max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto flex  w-full max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-md">

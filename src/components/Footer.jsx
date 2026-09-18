@@ -1,19 +1,18 @@
-import { Github, Facebook, Linkedin } from "lucide-react";
-
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-800 bg-gray-950 text-white">
+    <footer className="bg-gray-950 text-white">
       <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-
+        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+          
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h2 className="text-xl font-bold">
+            <h2 className="text-2xl font-bold tracking-tight">
               Movie<span className="text-gray-400">Explorer</span>
             </h2>
 
-            <p className="mt-2 text-sm text-gray-400">
-              Discover movies and shows you love.
+            <p className="mt-2 max-w-md text-sm leading-6 text-gray-400">
+              Discover movies and shows you love. Search, explore,
+              and find your next favorite movie.
             </p>
           </div>
 
@@ -23,30 +22,27 @@ const Footer = () => {
               href="https://github.com/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="rounded-lg border border-gray-700 p-2.5 text-gray-400 transition hover:border-white hover:text-white"
+              className="rounded-lg border border-gray-700 px-4 py-2 text-sm text-gray-300 transition hover:border-gray-400 hover:text-white"
             >
-              <Github size={18} />
+              GitHub
             </a>
 
             <a
               href="https://linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="rounded-lg border border-gray-700 p-2.5 text-gray-400 transition hover:border-white hover:text-white"
+              className="rounded-lg border border-gray-700 px-4 py-2 text-sm text-gray-300 transition hover:border-gray-400 hover:text-white"
             >
-              <Linkedin size={18} />
+              LinkedIn
             </a>
 
             <a
               href="https://facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Facebook"
-              className="rounded-lg border border-gray-700 p-2.5 text-gray-400 transition hover:border-white hover:text-white"
+              className="rounded-lg border border-gray-700 px-4 py-2 text-sm text-gray-300 transition hover:border-gray-400 hover:text-white"
             >
-              <Facebook size={18} />
+              Facebook
             </a>
           </div>
         </div>
@@ -63,3 +59,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
