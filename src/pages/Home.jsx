@@ -70,7 +70,7 @@ function Home() {
                 <div className="h-10 w-10 animate-spin rounded-full border-4 border-slate-700 border-t-red-500"></div>
               </div>
             ) : (
-              <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
                 {movies.map((movie) => (
                   <MovieCard
                     key={movie.id}
